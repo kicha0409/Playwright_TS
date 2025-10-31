@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "ESNext",
+    "lib": ["ES2021", "DOM"],
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "types": ["playwright"],
+    "noEmit": true,
+    "allowImportingTsExtensions": true
+  },
+  "include": ["pageObjects", "features","setup","step_definition"],
+  "exclude": ["node_modules", "eslint.config.ts"]
+}

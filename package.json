@@ -1,0 +1,41 @@
+{
+  "name": "pw_with_ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "lint": "eslint \"**/*\"",
+    "slint": "eslint . --ext .ts",
+    "report": "node reporter.ts",
+    "exec": "npm run test & npm run report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.2",
+    "@typescript-eslint/eslint-plugin": "^8.46.2",
+    "@typescript-eslint/parser": "^8.46.2",
+    "cucumber-html-reporter": "^7.2.0",
+    "eslint": "^9.38.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-filenames": "^1.3.2",
+    "eslint-plugin-jsdoc": "^61.1.9",
+    "eslint-plugin-playwright": "^2.2.2",
+    "eslint-plugin-prettier": "^5.5.4",
+    "jiti": "^2.6.1",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "playwright": "^1.56.1",
+    "typescript-eslint": "^8.46.2",
+    "winston": "^3.18.3",
+    "winston-daily-rotate-file": "^5.0.0"
+  }
+}

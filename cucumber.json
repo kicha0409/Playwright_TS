@@ -1,0 +1,12 @@
+{
+    "default": {
+        "paths": ["features/*.feature"],
+        "formatOptions": {
+            "snippetInterface": "async-await"
+        },
+        "dryRun": false,
+        "require": ["step_definition/*.step.ts","setup/hooks.ts"],
+        "require-module": ["ts-node/register"],
+        "format": ["json:reports/cucumber-report.json","junit:reports/cucumber-report.xml" ]
+    }
+}
