@@ -49,20 +49,15 @@ Thumbs.db
 *.wmv
 
 # images
-*.png
+screenshots/*
+
+# reports
+reports/*
 
 # Custom gitignore settings
 /traces
 /node_modules
 /logs
-/browsers.json
-/configs/db-config.js
-/reports/**
-browsers.json
-release.json
-args.json
-/.vs
-/Folder.DotSettings.user
 
 #rerun file
 /@rerun.txt
